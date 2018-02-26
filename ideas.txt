@@ -1,0 +1,33 @@
+Scrolls up
+side to side movement
+
+4 basic enemy types
+-Diagonal - slow ("bounces" off edge of "screen"), shoots when 1/4 of screen is left, shoots down
+-Side to Side - Fast (goes down by about 2 pixels per second)
+-Slammer - Fires 3 times, slams to the left, right and at the player
+-Boss (after surviving 5 waves) - Slow, side to side. Shoots 1 projectile every 3 seconds, projectile moves at about 64 pixels per second (From generation point to offscreen in 6 seconds)
+
+Waves
+-Audio
+;;;;  -Music track changes every 5 waves
+  -Some layering
+	-For every wave cleared, add a layer
+#|  -Between track changes
+	-Fast paced kicks (180 BPM 1/4 notes) & filtered bass (High to low)  |#
+Limited power ups
+  -Higher attack power, every 20 kills
+  -Better weapon, every 50 kills
+
+  -Shield, up to 6 'bars', every 5 groups killed
+  -Missile, up to 10 missiles, one every 10 groups killed
+
+
+Mini Game Jam - 3 days to make it ####<- Fucking lol
+  -GFX 80%
+  -Audio 95%
+  -Code 60%
+
+
+
+Post-Mortem notes:
+Background idea: Space station over a planet
